@@ -1,0 +1,122 @@
+*{
+	padding:0px;
+	margin:0;
+	font-family:'OnePlus Sans Regular','Helvetica Neue',Helvetica,Arial,sans-serif,system-ui
+	font-size:14px;
+}
+
+
+.navStyle{
+	display:flex;
+	justify-content:space-between;
+	border-bottom:1px solid hsl(210,8%,90%);
+	padding:0px 40px;
+	align-items:center;
+	cursor: pointer;
+}
+
+.onePlueIcon{
+	padding-top:10px;
+}
+
+
+.Style{
+	padding:8px;
+	padding-top:18px;
+}
+
+
+.Style:hover{
+	border-bottom:1px solid red;
+}
+	
+
+.iconHover{
+	padding-top:16px;
+}
+
+
+.iconHover:hover{
+	border-bottom:1px solid red;
+}
+
+
+.marginLeft{
+	margin-right: 5%;
+	
+}
+
+.padding{
+	padding:10px 40px;
+}
+
+.headingStyle{
+	font-size:50px;
+	color:#000000;
+	
+}
+
+.headingBodyImages{
+	display:flex;
+	
+}
+
+.headingBody{
+	display: flex;
+    	flex-direction: column;
+    	align-items: center;
+	padding:22px;
+	padding-bottom:5px;
+}
+
+.headingBody:hover{
+	border-bottom:1px solid red;
+}
+
+
+.imgTopSize{
+	width: 80px;
+    	height: 80px;
+}
+
+.newStyle{
+	font-size:12px;
+	color:red;
+}
+
+.mainBody{
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+	
+}
+
+.mainBodyTop{
+	width:100%;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	background: black;
+	padding:24px;
+}
+
+.mainBodyBottom{
+	display:flex;
+	justify-content:space-between;
+}
+
+
+.onePlus12{
+	width:1024px;
+	height:400px;
+}
+
+.onePlus12r{
+	width:640px;
+	height:400px;
+}
+
+.eular{
+	width:640px;
+	height:400px;
+}
