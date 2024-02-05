@@ -54,6 +54,11 @@
 	margin-top:10px;
 }
 
+.marginBottom{
+	margin-bottom:10px;
+}
+
+
 .headingStyle{
 	font-size:50px;
 	color:#000000;
@@ -440,4 +445,49 @@ ul{
 	background-repeat:no-repeat;
    	background-size:cover;
 	color:#ffffff;
+}
+
+.subscribe{
+	border:1px solid #ffffff;
+	width:50%;
+	height:45px;
+	display: flex;
+    	justify-content: center;
+	align-items:center;
+	margin-top:15px;
+}
+
+.listItems{
+	display:flex;
+	justify-content:space-between;
+	color:#ffffff;
+	padding:50px 0px;
+}
+
+.listHead{
+	color:hsl(0deg 0% 100% / 95%);
+	font-size:14px;
+}
+
+.listBody{
+	color:hsl(0deg 0% 100% / 55%);
+	font-size:12px;
+}
+
+.listBody:hover{
+	color:hsl(0deg 0% 100% / 95%);
+}
+
+.creditCardArea{
+	color:hsl(0deg 0% 100% / 55%);
+	font-size:12px;
+	display:flex;
+	border-bottom:1px solid hsl(0deg 0% 100% / 55%);
+}
+
+.credit{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	gap:20px;
 }
