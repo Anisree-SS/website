@@ -54,6 +54,11 @@
 	margin-top:10px;
 }
 
+.marginBottom{
+	margin-bottom:10px;
+}
+
+
 .headingStyle{
 	font-size:50px;
 	color:#000000;
@@ -232,20 +237,51 @@
     	justify-content: center;
 }
 
-.easyUpgradesImg{
-	width:640.5px;
-	height:400px;
-}
 
 .easyUpgradesPart{
 	display:flex;
 	justify-content:space-between;
 }
 
+.easyUpgrades,.studentPart{
+	width:640.5px;
+	height:400px;
+	background-image:url(../assets/easyUpgradeMob.jpg);
+	background-repeat:no-repeat;
+   	background-size:cover;	
+}
+
+.studentPart{
+	background-image:url(../assets/studentMob.jpg);
+	background-repeat:no-repeat;
+   	background-size:cover;	
+}
+
+.easyUpgradesData{
+	display: flex;
+   	flex-direction: column;
+    	padding: 20px;
+    	padding-top:45%;
+	gap:20px;
+}
+
+.studentPartData{
+	display: flex;
+   	flex-direction: column;
+    	padding: 20px;
+    	padding-top:45%;
+	gap:20px;
+	color:#ffffff;
+}
+
+
+
 .exchangePart{
 	display:flex;
 	justify-content:end;
 }
+
+
 
 
 .exchangeFrtPart{
@@ -441,3 +477,49 @@ ul{
    	background-size:cover;
 	color:#ffffff;
 }
+
+.subscribe{
+	border:1px solid #ffffff;
+	width:50%;
+	height:45px;
+	display: flex;
+    	justify-content: center;
+	align-items:center;
+	margin-top:15px;
+}
+
+.listItems{
+	display:flex;
+	justify-content:space-between;
+	color:#ffffff;
+	padding:50px 0px;
+}
+
+.listHead{
+	color:hsl(0deg 0% 100% / 95%);
+	font-size:14px;
+}
+
+.listBody{
+	color:hsl(0deg 0% 100% / 55%);
+	font-size:12px;
+}
+
+.listBody:hover{
+	color:hsl(0deg 0% 100% / 95%);
+}
+
+.creditCardArea{
+	color:hsl(0deg 0% 100% / 55%);
+	font-size:12px;
+	display:flex;
+	border-bottom:1px solid hsl(0deg 0% 100% / 55%);
+}
+
+.credit{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	gap:20px;
+}
+
