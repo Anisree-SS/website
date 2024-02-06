@@ -237,20 +237,51 @@
     	justify-content: center;
 }
 
-.easyUpgradesImg{
-	width:640.5px;
-	height:400px;
-}
 
 .easyUpgradesPart{
 	display:flex;
 	justify-content:space-between;
 }
 
+.easyUpgrades,.studentPart{
+	width:640.5px;
+	height:400px;
+	background-image:url(../assets/easyUpgradeMob.jpg);
+	background-repeat:no-repeat;
+   	background-size:cover;	
+}
+
+.studentPart{
+	background-image:url(../assets/studentMob.jpg);
+	background-repeat:no-repeat;
+   	background-size:cover;	
+}
+
+.easyUpgradesData{
+	display: flex;
+   	flex-direction: column;
+    	padding: 20px;
+    	padding-top:45%;
+	gap:20px;
+}
+
+.studentPartData{
+	display: flex;
+   	flex-direction: column;
+    	padding: 20px;
+    	padding-top:45%;
+	gap:20px;
+	color:#ffffff;
+}
+
+
+
 .exchangePart{
 	display:flex;
 	justify-content:end;
 }
+
+
 
 
 .exchangeFrtPart{
@@ -491,3 +522,4 @@ ul{
 	align-items:center;
 	gap:20px;
 }
+
