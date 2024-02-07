@@ -1,0 +1,100 @@
+*{
+	padding:0px;
+	margin:0;
+	font-family:'OnePlus Sans Regular','Helvetica Neue',Helvetica,Arial,sans-serif,system-ui
+	font-size:14px;
+}
+
+/*nav bar*/
+
+.navStyle{
+	display:flex;
+	justify-content:space-between;
+	border-bottom:1px solid hsl(210,8%,90%);
+	padding:0px 40px;
+	align-items:center;
+	cursor: pointer;
+}
+
+.onePlueIcon{
+	padding-top:10px;
+}
+
+
+.Style{
+	padding:8px;
+	padding-top:18px;
+}
+
+
+.Style:hover{
+	border-bottom:1px solid red;
+}
+	
+
+.iconHover{
+	padding-top:16px;
+}
+
+
+.iconHover:hover{
+	border-bottom:1px solid red;
+}
+
+.marginLeft{
+	margin-right: 5%;
+	
+}
+
+/* end nav bar*/
+
+/*Snd nav bar*/
+
+.imgSndNav{
+	width:60px;
+	height:60px;
+}
+
+.sndNav{
+	display:flex;
+	justify-content:space-between;
+	padding:0px 40px;
+	border-bottom:1px solid hsl(210,8%,90%);
+}
+
+.sndNavInnerArea{
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+	
+	align-items:center;
+}
+
+.StyleSnd{
+	padding:40px 0px;
+	border-bottom:1px solid hsl(210,8%,90%);
+}
+
+
+.StyleSnd:hover{
+	border-bottom:1px solid red;
+}
+	
+
+/*end snd nav bar*/
+
+/*body*/
+
+.mainBody{
+	display:flex;
+}
+
+.availabilityArea,.productArea{
+	display:flex;
+	flex-direction:column;
+	border:1px solid hsl(210,8%,90%);
+}
+
+
+
+/*end body*/

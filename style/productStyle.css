@@ -2,3 +2,44 @@
 	width:480px;
 	height:480px;
 }
+
+.imgStyleForSmall{
+	width:315px;
+	height:315px;
+}
+
+.imgSize{
+	width:20px;
+	height:20px;
+}
+
+.imgSmallSize{
+	width:58px;
+	height:58px;
+}
+
+.clrGray{
+	color:#999999;
+}
+
+.imgStyleFullScreen{
+	width:100%;
+	
+}
+
+.clrWhite{
+	color:#ffffff;
+}
+
+.forHeight{
+	height:50px;
+}
+
+ul{
+	list-style-type: none;
+}
+
+.imgFooter{
+	width:20px;
+	height:20px;
+}
