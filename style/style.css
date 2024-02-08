@@ -211,8 +211,8 @@
 
 
 .onSaleImg{
-	width:300px;
-	height:300px;
+	width:290px;
+	height:290px;
 }
 
 .onSaleRowBody{
@@ -528,14 +528,19 @@ ul{
 	height:80px;
 }
 
-.cartArea{
+#cartArea{
+	display:none;
 	border:1px solid #eaeaea;
 	background:#fff;
 	width:27%;
 	position:fixed;
 	top:47px;
-	right:0;
-	
+	right:0;	
+}
+
+button{
+	border:0px;
+	background:transparent;
 }
 
 .forVisible{

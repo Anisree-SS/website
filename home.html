@@ -2,6 +2,7 @@
 <html lang="en">
 	<head>
 		<title>onePlus</title>
+		<script src="script/forHome.js"></script>
 		<link rel="stylesheet" href="./style/iconStyle.css">
 		<link rel="stylesheet" href="./style/style.css">
 	</head>
@@ -26,7 +27,8 @@
 					<span class="material-symbols-outlined">search</span>
 				</div>
 				<div class="forVisible">
-					<span class="material-symbols-outlined">remove_shopping_cart</span>
+					<button onclick="show()"><span class="material-symbols-outlined">remove_shopping_cart</span></button>
+					
 				</div>
 				<div class="iconHover">
 					<span class="material-symbols-outlined">account_circle</span>
@@ -466,7 +468,7 @@
 				</ul>
 				<ul>
 					<li class="listHead padding10px">Store</li>
-					<li class="listBody padding5px"	Tablet</li>
+					<li class="listBody padding5px">Tablet</li>
 					<li class="listBody padding5px">TV & Display</li>
 					<li class="listBody padding5px">Audio</li>
 					<li class="listBody padding5px">Wearables</li>
@@ -532,7 +534,7 @@
 		</div>
 		</footer>
 		<!--cart part-->
-			<div class="cartArea">
+			<div  id="cartArea">
 				<div class="cartAreaTop">
 					<div>
 						<img src="./assets/brownCase.png" alt="Brown case" class="cartImg">
