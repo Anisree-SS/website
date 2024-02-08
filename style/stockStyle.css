@@ -58,6 +58,9 @@
 .sndNav{
 	display:flex;
 	justify-content:space-between;
+	position: sticky;
+  	top: 0;
+	background:#ffffff;
 	padding:0px 40px;
 	border-bottom:1px solid hsl(210,8%,90%);
 }
@@ -66,13 +69,12 @@
 	display:flex;
 	flex-direction:column;
 	justify-content:space-between;
-	
 	align-items:center;
 }
 
 .StyleSnd{
 	padding:40px 0px;
-	border-bottom:1px solid hsl(210,8%,90%);
+	border-bottom:1px solid #ffffff;
 }
 
 
@@ -83,6 +85,8 @@
 
 /*end snd nav bar*/
 
+
+
 /*body*/
 
 .mainBody{
@@ -92,9 +96,225 @@
 .availabilityArea,.productArea{
 	display:flex;
 	flex-direction:column;
-	border:1px solid hsl(210,8%,90%);
+	border-right:1px solid hsl(210,8%,90%);
+}
+
+/*end body*/
+
+
+
+/*availabilityArea*/
+
+.availabilityArea{
+	display:flex;
+	flex-direction:column;
+	gap:25px;
+	padding-top:20px;
+	width:20%;
+	padding-left:30px;
+}
+
+.forCkeckBox{
+	width:15px;
+	height:15px;
+	border:1px solid black;
+}
+
+.forCkeckBox:hover{
+	border:1px solid red;
+}
+
+.availability,.rateArea{
+	display:flex;
+	padding-top:20px;
+	gap:10px
+}
+
+.rateArea{
+	gap:0px;
+}
+
+.fontSize16{
+	font-size:16px;
+}
+
+.fontSize14{
+	font-size:14px;
+}
+
+.clrGray{
+	color: #999999;
+}
+
+.newStyle{
+	color:red;
+}
+
+.redround{
+	height:20px;
+	width:20px;
+	border-radius:50px;
+	background:red;
+}
+
+.divLine{
+	height: 10px;
+    	width: 70%;
+    	background: hsl(210,8%,90%);
+    	margin-top: 5px;
+    	border-radius: 10px;
+}
+
+.rate{
+	display:flex;
+	justify-content: space-between;
+    	margin-right: 30px;
+    	font-size: 12px;
+    	color: #999999;
+    	padding-top: 10px;
 }
 
 
+/*end availabilityArea*/
 
-/*end body*/
+
+
+
+/*productArea*/
+
+
+.productArea{
+	display:flex;
+	flex-direction:column;
+	gap:25px;
+	margin-top:20px;
+	border:0;
+	width:20%;
+	padding-left:30px;
+
+}
+
+.productAreaTopHead{
+	display:flex;
+	gap:5px;
+}
+
+.productAreaStock{
+	padding:15px;
+	display:flex;
+	gap:25%;
+}
+
+.fontSize20{
+	font-size:20px;
+}
+
+.fontSize12{
+	font-size:12px;
+}
+
+.stockData{
+	display:flex;
+	flex-direction:column;
+	gap:20px;
+}
+
+.productImg{
+	width:240px;
+	height:240px;
+}
+
+.rateDiv{
+	padding:10px 0px;
+	font-size:16px;
+	color:black;
+}
+
+.rateDiv:hover{
+	padding-left:0px;
+	color:#ffffff;
+	background:#000000;
+	display: flex;
+    	justify-content: center;
+}
+
+/*end productArea*/
+
+
+
+/*chat*/
+
+.chat{
+	position:fixed;
+	height:50px;
+	width:50px;
+	bottom:20%;
+	left:24px;
+	background:#ffffff;
+	cursor:pointer;
+	border-radius:24px;
+	display: flex;
+    	justify-content: center;
+	align-items:center;
+	box-shadow: 1px 5px 5px hsl(210,8%,90%);
+}
+
+/*End chat*/
+
+
+/*footer*/
+
+footer{
+	background:#000000;
+	padding:50px 70px;
+}
+
+.listItems{
+	display:flex;
+	justify-content:space-between;
+	color:#ffffff;
+	
+}
+
+.listHead{
+	color:hsl(0deg 0% 100% / 95%);
+	font-size:14px;
+}
+
+.listBody{
+	color:hsl(0deg 0% 100% / 55%);
+	font-size:12px;
+}
+
+.listBody:hover{
+	color:hsl(0deg 0% 100% / 95%);
+}
+
+.creditCardArea{
+	color:hsl(0deg 0% 100% / 55%);
+	font-size:12px;
+	display:flex;
+	border-bottom:1px solid hsl(0deg 0% 100% / 55%);
+}
+
+.credit{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	gap:20px;
+}
+
+
+.padding10px{
+	padding:10px;
+}
+
+.padding5px{
+	padding:5px;
+}
+
+ul{
+	list-style-type: none;
+}
+
+/*end footer*/

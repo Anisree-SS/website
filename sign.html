@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>login</title>
+		<title>Signin</title>
 		<script src="script/loginScript.js"></script>
-		<link rel="stylesheet" href="./style/iconStyle.css">
 		<link rel="stylesheet" href="./style/loginStyle.css">
 	</head>
 	<body>
@@ -16,18 +15,12 @@
 						<input type="text" id="phoneNum" placeholder="Phone" maxlength="10" oninput="phoneNo(this)">
 					</div>
 					<div class="verificationPart">
-						<input type="password" id="pass" placeholder="Password" >
-						<span class="material-symbols-outlined otherWays">visibility_off</span>
+						<input type="text" id="Verification" placeholder="Verification Code"  oninput="phoneNo(this)">
+						<input type="submit" onclick="getCode()" class="getCodePart " value="Get code">
 					</div>
-					<div  class="verification">
-						<p class="pStyle">Sign in with code</p>
-						<p class="pStyle">Forgot password?</p>
-					</div>
+					<p class="pStyle">Sign in with password</p>
 					<div class="password">
-						Sign in with password
-					</div>
-					<div class="create">
-						Create account
+						Continue
 					</div>
 				</form>
 				<div class="googleSignUp">

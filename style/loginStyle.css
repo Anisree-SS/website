@@ -57,6 +57,12 @@ input{
 	justify-content:space-between;
 }
 
+.verification{
+	padding:15px;
+	display:flex;
+	justify-content:space-between;
+}
+
 .getCodePart{
 	font-size:14px;
 	border-left:1px solid gray;
@@ -120,7 +126,7 @@ input{
 }
 
 .googleSignUp{
-	margin-top: 20%;
+	margin-top: 15%;
 }
 
 .otherWaysPartMail{
@@ -134,6 +140,34 @@ input{
 	justify-content:space-evenly;
 	font-size:12px;
 	margin-top:10px;
+}
+
+
+.password{
+    	display: flex;
+   	justify-content: center;
+    	align-items: center;
+	width: 50%;
+    	margin: 20px 112px;
+    	height: 30px;
+    	border-radius: 19px;
+	background:#dedede;
+	color:#ffffff;
+	cursor: no-drop;
+}
+
+.create{
+	border:2px solid #999999; 
+	display: flex;
+   	justify-content: center;
+    	align-items: center;
+	width: 50%;
+    	margin: 20px 112px;
+    	height: 30px;
+    	border-radius: 19px;
+	background:transparet;
+	color:#999999;	
+	cursor:pointer;
 }
 
 

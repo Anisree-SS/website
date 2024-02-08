@@ -533,16 +533,30 @@ ul{
 	background:#fff;
 	width:27%;
 	position:fixed;
-	top:12%;
+	top:47px;
 	right:0;
-	//visibility:hidden;
+	
+}
+
+.forVisible{
+	padding-top:16px;
+	color:#000000;
+}
+
+.forVisible:hover{
+	border-bottom:1px solid red;
+}
+
+.forVisible:hover + .cartArea{
+	display:block;
+	
 }
 
 .cartAreaTop{
 	display:flex;
 	justify-content:space-between;
 	margin-right:10px;
-	margin-top:10px;	
+	margin-top:20px;	
 }
 
 .cartAreaBottomTop{
@@ -557,9 +571,6 @@ ul{
 	border:1px solid #eaeaea;
 }
 
-.cartAreaPStyle{
-	
-}
 
 .cartAreaBottom{
 	display:flex;

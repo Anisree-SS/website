@@ -1,0 +1,234 @@
+*{
+	padding:0px;
+	margin:0;
+	font-family:'OnePlus Sans Regular','Helvetica Neue',Helvetica,Arial,sans-serif,system-ui
+	font-size:14px;
+}
+
+
+/*nav bar*/
+
+.navStyle{
+	display:flex;
+	justify-content:space-between;
+	border-bottom:1px solid hsl(210,8%,90%);
+	padding:0px 40px;
+	align-items:center;
+	cursor: pointer;
+}
+
+.onePlueIcon{
+	padding-top:10px;
+}
+
+
+.Style{
+	padding:8px;
+	padding-top:18px;
+}
+
+
+.Style:hover{
+	border-bottom:1px solid red;
+}
+	
+
+.iconHover{
+	padding-top:16px;
+}
+
+
+.iconHover:hover{
+	border-bottom:1px solid red;
+}
+
+.marginLeft{
+	margin-right: 5%;
+	
+}
+
+.displayStyle{
+	display: flex;
+	gap:25px;
+}
+
+/*End nav*/
+
+
+/*mainBody*/
+
+.mainBody{
+	display:flex;
+	padding:64px 24px;
+}
+
+
+
+/*payment part*/
+
+.payment{
+	display:flex;
+	flex-direction:column;
+	
+}
+
+.fontSize60{
+	font-size:60px;
+	margin-bottom:20px;
+}
+
+.fontSize18{
+	font-size:18px;
+}
+
+.fontSize32{
+	font-size:32px;
+}
+
+.fontSize36{
+	font-size:36px;
+	margin-top:5%;
+}
+
+.fontSize14{
+	font-size:14px;
+}
+
+.fontSize20{
+	font-size:20px;
+}
+
+.clrGreen{
+	color:#3bc380;
+}
+
+.clrGray{
+	color:#999999;
+}
+
+.debitArea{
+	border:1px solid #000000;
+	display:flex;
+	justify-content:space-between;
+	width:100%;
+}
+
+.payNow{
+	background:#000000;
+	color:#fff;
+	width:37%;
+	margin-top:25px;
+	margin-bottom:15px;
+}
+
+.debitCardP{
+	padding:30px;
+}
+
+.imgDebit{
+	padding:27px;
+}
+
+.select{
+	padding:20px 0px;
+}
+
+.pPayNow{
+	display: flex;
+    	justify-content: center;
+    	padding: 10px 50px
+}
+
+/*End payment part*/
+
+/*orderTotal*/
+
+.order{
+	display:flex;
+	flex-direction:column;
+	width:45%;
+}
+
+.orderTotal{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	margin-left:30px;
+	padding-bottom:15px;
+	
+}
+.forBorder{
+	padding-bottom:30px;
+	border-bottom:1px solid hsl(210,8%,90%);
+}
+
+.paddingRem{
+	padding-bottom:0px;
+}
+
+.delivery{
+	display:flex;
+	flex-direction:column;
+	gap:10px;
+	margin-left:30px;
+	padding-bottom:25px;
+}
+
+.marginTop{
+	margin-top:5%;
+}
+
+/*EndorderTotal*/
+
+/*end mainBody*/
+
+/*chat*/
+
+.chat{
+	position:fixed;
+	height:50px;
+	width:50px;
+	bottom:20%;
+	left:24px;
+	background:#ffffff;
+	cursor:pointer;
+	border-radius:24px;
+	display: flex;
+    	justify-content: center;
+	align-items:center;
+	box-shadow: 1px 5px 5px hsl(210,8%,90%);
+}
+
+/*End chat*/
+
+
+/*faq*/
+
+.faq{
+	padding:30px;
+}
+
+.faqData{
+	display:flex;
+	justify-content:space-between;
+	margin:20px 0px;
+}
+
+.FAQP{
+	margin:20px 0px;
+	
+}
+
+.forBorderFAQ{
+	padding-bottom:10px;
+	border-bottom:1px solid hsl(210,8%,90%);
+}
+
+/*End faq*/
+
+
+.marginBottom{
+	margin-bottom:20px;
+
+
+}
