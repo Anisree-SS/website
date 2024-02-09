@@ -1,7 +1,7 @@
 *{
 	padding:0px;
 	margin:0;
-	font-family:'OnePlus Sans Regular','Helvetica Neue',Helvetica,Arial,sans-serif,system-ui
+	font-family:'OnePlus Sans Regular','Helvetica Neue',Helvetica,Arial,sans-serif,system-ui;
 	font-size:14px;
 }
 
@@ -197,12 +197,14 @@
 .productAreaTopHead{
 	display:flex;
 	gap:5px;
+	cursor: pointer;
 }
 
 .productAreaStock{
 	padding:15px;
 	display:flex;
 	gap:25%;
+	cursor: pointer;
 }
 
 .fontSize20{
@@ -273,12 +275,14 @@ footer{
 	display:flex;
 	justify-content:space-between;
 	color:#ffffff;
+	cursor: pointer;
 	
 }
 
 .listHead{
 	color:hsl(0deg 0% 100% / 95%);
 	font-size:14px;
+	cursor: pointer;
 }
 
 .listBody{

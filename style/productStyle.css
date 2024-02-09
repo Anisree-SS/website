@@ -1,3 +1,25 @@
+*{
+	font-family:'OnePlus Sans Regular','Helvetica Neue',Helvetica,Arial,sans-serif,system-ui;
+}
+
+.heading{
+	font-size:28px;
+}
+
+.rate{
+	font-size:24px;
+}
+
+.forWidth{
+	width:90%
+}
+
+
+.addToCart{
+	font-size:16px;
+}
+
+
 .imgStyle{
 	width:480px;
 	height:480px;
@@ -6,6 +28,11 @@
 .imgStyleForSmall{
 	width:315px;
 	height:315px;
+}
+
+.imgStyleForMid{
+	width:435px;
+	height:435px;
 }
 
 .imgSize{
@@ -23,7 +50,7 @@
 }
 
 .imgStyleFullScreen{
-	width:100%;
+	//width:100%;
 	
 }
 
@@ -42,4 +69,16 @@ ul{
 .imgFooter{
 	width:20px;
 	height:20px;
+}
+
+.fontSize14{
+	font-size:14px;
+}
+
+.fontSize12{
+	font-size:12px;
+}
+footer{
+	background:#000000;
+	padding:12px;
 }

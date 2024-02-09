@@ -1,7 +1,7 @@
 *{
 	padding:0px;
 	margin:0;
-	font-family:'OnePlus Sans Regular','Helvetica Neue',Helvetica,Arial,sans-serif,system-ui
+	font-family:'OnePlus Sans Regular','Helvetica Neue',Helvetica,Arial,sans-serif,system-ui;
 	font-size:14px;
 }
 
@@ -60,7 +60,7 @@
 
 
 .headingStyle{
-	font-size:50px;
+	font-size:48px;
 	color:#000000;
 	
 }
@@ -164,9 +164,16 @@
 	font-size:48px;
 }
 
+.fontSize32{
+	font-size:32px;
+}
 
 .fontSize10{
 	font-size:10px;
+}
+
+.fontSize20{
+	font-size:20px;
 }
 
 
@@ -211,8 +218,8 @@
 
 
 .onSaleImg{
-	width:300px;
-	height:300px;
+	width:290px;
+	height:290px;
 }
 
 .onSaleRowBody{
@@ -528,14 +535,19 @@ ul{
 	height:80px;
 }
 
-.cartArea{
+#cartArea{
+	display:none;
 	border:1px solid #eaeaea;
 	background:#fff;
 	width:27%;
 	position:fixed;
 	top:47px;
-	right:0;
-	
+	right:0;	
+}
+
+button{
+	border:0px;
+	background:transparent;
 }
 
 .forVisible{
@@ -617,5 +629,30 @@ ul{
 
 .checkOutButtonStyle:hover{
 	background:#333;
+}
+
+.topTwoPhone{
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+	width:600px;
+	height:400px;
+	background-image:url(../assets/oneplus12r.jpg);
+   	background-size:cover;
+}
+
+.topTwoEular{
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+	width:600px;
+	height:400px;
+	background-image:url(../assets/eularMob.jpg);
+   	background-size:cover;
+}
+
+a{
+	color:#000000;
+	text-decoration: none; 
 }
 

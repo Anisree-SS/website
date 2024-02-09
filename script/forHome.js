@@ -1,7 +1,7 @@
 function show() 
 {
-	var x = document.getElementById("answ1");
-	if (x.style.display == "none") 
+	x = document.getElementById("cartArea")
+	if (x.style.display =="none") 
 	{
     		x.style.display = "block";
  	} 
@@ -10,3 +10,5 @@ function show()
    		x.style.display = "none";
  	}
 }
+
+
