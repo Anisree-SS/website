@@ -1,7 +1,7 @@
 *{
 	padding:0px;
 	margin:0px;
-	font-family:'OnePlus Sans Regular','Helvetica Neue',Helvetica,Arial,sans-serif,system-ui
+	font-family:'OnePlus Sans Regular','Helvetica Neue',Helvetica,Arial,sans-serif,system-ui;
 	font-size:14px;
 }
 
@@ -156,6 +156,11 @@ input{
 	cursor: no-drop;
 }
 
+a{
+	color:#999999;
+	text-decoration: none; 
+}
+
 .create{
 	border:2px solid #999999; 
 	display: flex;
@@ -169,5 +174,7 @@ input{
 	color:#999999;	
 	cursor:pointer;
 }
+
+
 
 

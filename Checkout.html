@@ -1,141 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>Checkout</title>
-		<link rel="stylesheet" href="./style/iconStyle.css">
-		<link rel="stylesheet" href="./style/checkoutStyle.css">
-	</head>
-	<body>
-		<!--nav bar-->
-		<div class="navStyle">
-			
-				<div class="onePlueIcon"><img src="./assets/oneplus.png" alt="onePlus"></div>
-				<div class="Style">Phone</div>
-				<div class="Style">Tablet</div>
-				<div class="Style">Audio</div>
-				<div class="Style">TV & Display</div>
-				<div class="Style">Accessories</div>
-				<div class="marginLeft Style">Offers</div>
-				<div class="Style">Store</div>
-				<div class="Style">OneTopia</div>
-				<div class="Style">OnePlus Featuring</div>
-				<div class="Style">Community</div>
-				<div class="Style">Support</div>
-				<div class="iconHover">
-					<span class="material-symbols-outlined">search</span>
-				</div>
-				<div class="iconHover">
-					<span class="material-symbols-outlined">remove_shopping_cart</span>
-				</div>
-				<div class="iconHover">
-					<span class="material-symbols-outlined">account_circle</span>
-				</div>
-			
-		</div>
-		
-
-		<!--Main Body-->
-		<div class="mainBody">
-		<p class="heading">Checkout</p>
-		<div class="container">
-			<div class="shippingArea">
-				<p>Shipping Address:</p>
-			</div>
-			<div class="dataArea">
-				<form>
-				<div class="dataAreaNamepart">
-					<div>
-						<p>Full Name</p>
-						<div class="forBorder">
-							<input type="text" placeholder="Full Name">
-						</div>
-					</div>
-					<div>
-						<p>Mobile Number</p>
-						<div class="forDisplay forBorder">
-							<p>+91</p>
-							<input type="text" placeholder="Phone Number">
-						</div>
-					</div>
-				</div>
-				<div class="dataAreaCountryPart">
-					<p>Country or Region</p>
-					<div class="forBorderOther">
-					<select>
-						<option value="Country or Region">Country or Region</option>
-						<option value="Country or Region">[AF] Afghanistan</option>
-						<option value="Country or Region">[AT] Austria</option>
-						<option value="Country or Region">[IN] India</option>
-					</select>	
-					</div>
-				</div>
-				<div class="dataAreaCountryPart">
-					<p>PinCode</p>
-					<div class="forBorderOther">
-					<input type="text" placeholder="Pincode">
-					</div>
-				</div>
-				<div class="dataAreaNamePart forDisplay">
-					<span class="material-symbols-outlined info">info</span>
-					<p> Please ensure complete address (e.g. Flat number, Room number, Street number, etc.) is input correctly. Once you submitted your order, these details cannot be changed. Kindly note incomplete/incorrect address may result to delivery failure.</p>
-				</div>
-				<div class="dataAreaCountryPart">
-					<p>Address</p>
-					<div class="forBorderAddress">
-					<input type="text" placeholder="Address Format(Preferred):Flat/House No.,Floor,Building,Street">
-					</div>
-					<div class="forBorderAddress">
-					<input type="text" placeholder="Landmark Example: Near/Behind/Opposite OnePlus Store,etc.">
-					</div>
-				</div>
-				<div class="dataAreaNamepart">
-					<div>
-						<p>City/Town</p>
-						<div class="forCity">
-						<select>
-							<option value="City/Town">City/Town</option>
-						</select>
-						</div>
-					</div>
-					<div>
-						<p class="forBorderleft">State/Province/Region</p>
-						<div class="forBorder forBorderleft forWidth">
-						<input type="text" placeholder="State/Province/Region">
-						</div>
-					</div>
-				</div>
-				<div class="dataAreaNamepart">
-					<div class="forDisplay">
-						<input type="checkbox" class="checkBox">
-						<p class="forPaddingLeft">Use as default address</p>
-					</div>
-				</div>
-				<div class="forButtons">
-					<div class="forBorder btnBgReset">
-					<input type="reset" value="Cancel">
-					</div>
-					<div class="forBorder btnBg">
-					<input type="button" value="Save">
-					</div>
-				</div>
-				<div class="dataAreaNamepart">
-					<p>Billing address same as shipping address.</p>
-				</div>
-				<div>
-					<p class="forButtons">GSTIN(Optional):
-					<div class="forButtons">
-						<input type="text" placeholder="Please insert your GSTIN here" class="forGst">
-						<p  class="shippingArea">Without GSTIN,the invoice would be retail</p>
-						<span class="material-symbols-outlined shippingArea">help</span>
-						
-					</div>
-				</div>
-				<div class="forButtons">
-					<p class="fontSize">Shipping Method:</p><span class="material-symbols-outlined fontSize">info</span>
-				</div>
-				</form>
-			</div>
-		</div>
-		</div>
-	</body>
+   <head>
+      <title>Checkout</title>
+      <script src="script/checkoutScript.js"></script>
+      <link rel="stylesheet" href="./style/iconStyle.css">
+      <link rel="stylesheet" href="./style/checkoutStyle.css">
+   </head>
+   <body>
+      <!--nav bar-->
+      <div class="navStyle">
+         <div class="onePlueIcon"><img src="./assets/oneplus.png" alt="onePlus"></div>
+         <div class="Style">Phone</div>
+         <div class="Style">Tablet</div>
+         <div class="Style">Audio</div>
+         <div class="Style">TV & Display</div>
+         <div class="Style">Accessories</div>
+         <div class="marginLeft Style">Offers</div>
+         <div class="Style">Store</div>
+         <div class="Style">OneTopia</div>
+         <div class="Style">OnePlus Featuring</div>
+         <div class="Style">Community</div>
+         <div class="Style">Support</div>
+         <div class="iconHover">
+            <span class="material-symbols-outlined">search</span>
+         </div>
+         <div class="iconHover">
+            <span class="material-symbols-outlined">remove_shopping_cart</span>
+         </div>
+         <div class="iconHover">
+            <span class="material-symbols-outlined">account_circle</span>
+         </div>
+      </div>
+      <!--Main Body-->
+      <div class="mainBody">
+         <p class="heading">Checkout</p>
+         <div class="container">
+            <div class="shippingArea">
+               <p>Shipping Address:</p>
+            </div>
+            <div class="dataArea">
+               <form>
+                  <div class="dataAreaNamepart">
+                     <div>
+                        <p>Full Name</p>
+                        <div class="forBorder">
+                           <input type="text" id="name" placeholder="Full Name" oninput="data(this)">
+                        </div>
+                     </div>
+                     <div>
+                        <p>Mobile Number</p>
+                        <div class="forDisplay forBorder">
+                           <p>+91</p>
+                           <input type="text" id="phone" placeholder="Phone Number" maxlength="10" oninput="phoneNo(this)">
+                        </div>
+                     </div>
+                  </div>
+                  <div class="dataAreaCountryPart">
+                     <p>Country or Region</p>
+                     <div class="forBorderOther">
+                        <select>
+                           <option value="Country or Region">Country or Region</option>
+                           <option value="Country or Region">[AF] Afghanistan</option>
+                           <option value="Country or Region">[AT] Austria</option>
+                           <option value="Country or Region">[IN] India</option>
+                        </select>
+                     </div>
+                  </div>
+                  <div class="dataAreaCountryPart">
+                     <p>PinCode</p>
+                     <div class="forBorderOther">
+                        <input type="text" placeholder="Pincode" oninput="phoneNo(this)">
+                     </div>
+                  </div>
+                  <div class="dataAreaNamePart forDisplay">
+                     <span class="material-symbols-outlined info">info</span>
+                     <p> Please ensure complete address (e.g. Flat number, Room number, Street number, etc.) is input correctly. Once you submitted your order, these details cannot be changed. Kindly note incomplete/incorrect address may result to delivery failure.</p>
+                  </div>
+                  <div class="dataAreaCountryPart">
+                     <p>Address</p>
+                     <div class="forBorderAddress">
+                        <input type="text" placeholder="Address Format(Preferred):Flat/House No.,Floor,Building,Street">
+                     </div>
+                     <div class="forBorderAddress">
+                        <input type="text" placeholder="Landmark Example: Near/Behind/Opposite OnePlus Store,etc.">
+                     </div>
+                  </div>
+                  <div class="dataAreaNamepart">
+                     <div>
+                        <p>City/Town</p>
+                        <div class="forCity">
+                           <select>
+                              <option value="City/Town">City/Town</option>
+                           </select>
+                        </div>
+                     </div>
+                     <div>
+                        <p class="forBorderleft">State/Province/Region</p>
+                        <div class="forBorder forBorderleft forWidth">
+                           <input type="text" placeholder="State/Province/Region">
+                        </div>
+                     </div>
+                  </div>
+                  <div class="dataAreaNamepart">
+                     <div class="forDisplay">
+                        <input type="checkbox" class="checkBox">
+                        <p class="forPaddingLeft">Use as default address</p>
+                     </div>
+                  </div>
+                  <div class="forButtons">
+                     <div class="forBorder btnBgReset">
+                        <input type="reset" value="Cancel">
+                     </div>
+                     <div class="forBorder btnBg">
+                        <input type="button" value="Save">
+                     </div>
+                  </div>
+                  <div class="dataAreaNamepart">
+                     <p>Billing address same as shipping address.</p>
+                  </div>
+                  <div>
+                     <p class="forButtons">GSTIN(Optional):
+                     <div class="forButtons">
+                        <input type="text" placeholder="Please insert your GSTIN here" class="forGst">
+                        <p  class="shippingArea">Without GSTIN,the invoice would be retail</p>
+                        <span class="material-symbols-outlined shippingArea">help</span>
+                     </div>
+                  </div>
+                  <div class="forButtons">
+                     <p class="fontSize">Shipping Method:</p>
+                     <span class="material-symbols-outlined fontSize">info</span>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+   </body>
 </html>

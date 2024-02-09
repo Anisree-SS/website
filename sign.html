@@ -1,47 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>Signin</title>
-		<script src="script/loginScript.js"></script>
-		<link rel="stylesheet" href="./style/loginStyle.css">
-	</head>
-	<body>
-		<div class="mainDiv">
-			<p class="signupStyle">Sign in/Create account</p>
-			<div class="innerDiv">
-				<form action="home.html" method="post">
-					<div class="phoneNumberPart">
-						<p class="borderRight ">+91</p>
-						<input type="text" id="phoneNum" placeholder="Phone" maxlength="10" oninput="phoneNo(this)">
-					</div>
-					<div class="verificationPart">
-						<input type="text" id="Verification" placeholder="Verification Code"  oninput="phoneNo(this)">
-						<input type="submit" onclick="getCode()" class="getCodePart " value="Get code">
-					</div>
-					<p class="pStyle">Sign in with password</p>
-					<div class="password">
-						Continue
-					</div>
-				</form>
-				<div class="googleSignUp">
-					<p class="otherWays">Other ways to sign in</p>
-					<div class="otherWaysPart">
-						<div class="otherWaysPartMail">
-							<img src="./assets/gmail.png" alt="mail">
-							<p> Mail</p>
-						</div>
-						<div class="otherWaysPartMail">
-							<img src="./assets/google.png" alt="google">
-							<p>google</p>
-						</div>
-					</div>
-				</div>
-				<div class="extraData">
-					<p class="pStyle">Account User Agreement</p>
-					<p class="pStyleLast">|</p>
-					<p class="pStyle">Privacy Notice</p>
-				</div>
-			</div>
-		</div>
-	</body>
+   <head>
+      <title>Signin</title>
+      <script src="script/loginScript.js"></script>
+      <link rel="stylesheet" href="./style/loginStyle.css">
+   </head>
+   <body>
+      <div class="mainDiv">
+         <p class="signupStyle">Sign in/Create account</p>
+         <div class="innerDiv">
+            <form>
+               <div class="phoneNumberPart">
+                  <p class="borderRight ">+91</p>
+                  <input type="text" id="phoneNum" placeholder="Phone" maxlength="10" oninput="phoneNo(this)">
+               </div>
+               <div class="verificationPart">
+                  <input type="text" id="Verification" placeholder="Verification Code"  oninput="phoneNo(this)">
+		  <input type="button" class="getCodePart" value="Get code" onclick="getCode()">
+               </div>
+               <p class="pStyle">Sign in with password</p>
+               <div class="create">
+		  <input type="button" value="Continue" onclick="nextStep()">
+               </div>
+            </form>
+            <div class="googleSignUp">
+               <p class="otherWays">Other ways to sign in</p>
+               <div class="otherWaysPart">
+                  <div class="otherWaysPartMail">
+                     <img src="./assets/gmail.png" alt="mail">
+                     <p> Mail</p>
+                  </div>
+                  <div class="otherWaysPartMail">
+                     <img src="./assets/google.png" alt="google">
+                     <p>google</p>
+                  </div>
+               </div>
+            </div>
+            <div class="extraData">
+               <p class="pStyle">Account User Agreement</p>
+               <p class="pStyleLast">|</p>
+               <p class="pStyle">Privacy Notice</p>
+            </div>
+         </div>
+      </div>
+   </body>
 </html>
