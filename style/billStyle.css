@@ -119,6 +119,16 @@
 	width:37%;
 	margin-top:25px;
 	margin-bottom:15px;
+	cursor: pointer;
+}
+
+.payNow:hover{
+	background:#373737;
+	color:#fff;
+	width:37%;
+	margin-top:25px;
+	margin-bottom:15px;
+	cursor: pointer;
 }
 
 .debitCardP{
@@ -212,6 +222,7 @@
 	display:flex;
 	justify-content:space-between;
 	margin:20px 0px;
+	cursor: pointer;
 }
 
 .FAQP{

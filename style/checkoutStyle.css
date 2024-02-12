@@ -54,7 +54,7 @@ body{
 	border:1px solid #999999;
 	padding:5px;
 	margin:2px;
-	width:130%;
+	width:134%;
 }
 
 .forBorderleft{
@@ -208,16 +208,26 @@ select{
 	background-color:#eb0028;
 	border:1px solid #eb0028;
 	color:#ffffff;
+	cursor: pointer;
 }
 
 .btnBg:hover{
-	border:1px solid #bd0507f5;
+	background-color: #960000;
+	color:#ffffff;
+}
+
+.forPointer{
+	cursor: pointer;
+}
+
+.clrWhite{
 	color:#ffffff;
 }
 
 .btnBgReset{
 	border:1px solid #eb0028;
 	color:#eb0028;
+	cursor: pointer;
 }
 .btnBgReset:hover{
 	border:1px solid #eb0028;

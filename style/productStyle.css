@@ -23,39 +23,41 @@
 .imgStyle{
 	width:480px;
 	height:480px;
+	cursor:pointer;
 }
 
 .imgStyleForSmall{
 	width:315px;
 	height:315px;
+	cursor:pointer;
 }
 
 .imgStyleForMid{
 	width:435px;
 	height:435px;
+	cursor:pointer;
 }
 
 .imgSize{
 	width:20px;
 	height:20px;
+	cursor:pointer;
 }
 
 .imgSmallSize{
 	width:58px;
 	height:58px;
+	cursor:pointer;
 }
 
 .clrGray{
 	color:#999999;
 }
 
-.imgStyleFullScreen{
-	//width:100%;
-	
-}
 
 .clrWhite{
 	color:#ffffff;
+	cursor:pointer;
 }
 
 .forHeight{
@@ -64,21 +66,26 @@
 
 ul{
 	list-style-type: none;
+	cursor:pointer;
 }
 
 .imgFooter{
 	width:20px;
 	height:20px;
+	cursor:pointer;
 }
 
 .fontSize14{
 	font-size:14px;
+	cursor:pointer;
 }
 
 .fontSize12{
 	font-size:12px;
+	cursor:pointer;
 }
 footer{
 	background:#000000;
 	padding:12px;
+	
 }

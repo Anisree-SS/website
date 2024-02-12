@@ -13,6 +13,7 @@
 img{
 	width:48px;
 	height:48px;
+	cursor: pointer;
 }
 
 .mainDiv{
@@ -68,6 +69,7 @@ input{
 	border-left:1px solid gray;
 	padding-left:5px;
 	color:gray;
+	cursor: pointer;
 }
 
 .getCodePart:hover{
@@ -85,18 +87,21 @@ input{
 	font-size:14px;
 	width:50%;
 	height:45px;
+	cursor: pointer;
 }
 
 .pStyle{
 	color:rgb(0, 123, 255);
 	font-size:12px;
 	padding:12px 0px;
+	cursor: pointer;
 }
 
 .pStyleLast{
 	color:gray;
 	font-size:12px;
 	padding:12px 0px;
+	cursor: pointer;
 }
 
 
@@ -127,20 +132,25 @@ input{
 
 .googleSignUp{
 	margin-top: 15%;
+	
 }
 
 .otherWaysPartMail{
 	display:flex;
 	flex-direction:column;
 	align-items:center;
+	cursor: pointer;
 }
 
 .extraData{
 	display:flex;
 	justify-content:space-evenly;
 	font-size:12px;
-	margin-top:10px;
+	margin-top:40px;
+	cursor: pointer;
 }
+
+
 
 
 .password{
@@ -156,9 +166,14 @@ input{
 	cursor: no-drop;
 }
 
+.forPointer{
+	cursor: pointer;
+}
+
 a{
 	color:#999999;
 	text-decoration: none; 
+	cursor: pointer;
 }
 
 .create{
@@ -172,7 +187,7 @@ a{
     	border-radius: 19px;
 	background:transparet;
 	color:#999999;	
-	cursor:pointer;
+	cursor: pointer;
 }
 
 

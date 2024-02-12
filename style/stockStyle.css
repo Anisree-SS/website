@@ -23,7 +23,8 @@
 
 .Style{
 	padding:8px;
-	padding-top:18px;
+	padding-top:17px;
+	cursor: pointer;
 }
 
 
@@ -34,6 +35,7 @@
 
 .iconHover{
 	padding-top:16px;
+	cursor: pointer;
 }
 
 
@@ -53,6 +55,7 @@
 .imgSndNav{
 	width:60px;
 	height:60px;
+	cursor: pointer;
 }
 
 .sndNav{
@@ -70,6 +73,7 @@
 	flex-direction:column;
 	justify-content:space-between;
 	align-items:center;
+	cursor: pointer;
 }
 
 .StyleSnd{
@@ -97,6 +101,7 @@
 	display:flex;
 	flex-direction:column;
 	border-right:1px solid hsl(210,8%,90%);
+	cursor: pointer;
 }
 
 /*end body*/
@@ -299,10 +304,12 @@ footer{
 	font-size:12px;
 	display:flex;
 	border-bottom:1px solid hsl(0deg 0% 100% / 55%);
+	cursor: pointer;
 }
 
 .credit{
 	display:flex;
+	margin-top:10px;
 	justify-content:center;
 	align-items:center;
 	gap:20px;
